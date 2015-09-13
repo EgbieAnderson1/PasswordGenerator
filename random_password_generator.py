@@ -128,7 +128,7 @@ class PasswordGenerator(Dictionary):
         numbers = "0123456789"
         word = self._get_word(num)
 
-        # make the first half word of the word lower cases and the other half uppercase
+        # make the first half of the word lower cases and the other half uppercase
         first_part, second_part = word[0: (num/2)], word[(num/2):]
         word = first_part.lower() + second_part
 
